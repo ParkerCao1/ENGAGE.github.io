@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vrobject>
-  <input columns="90" fileextension="png" height="2160" imagepath="images" levelbias="0.40000000596046448" levelmembmp="200" levelmemraw="300" levelqueuebmp="5" levelqueueraw="20" leveltilesize="510" leveltileurl="tiles/c%c_l%r_%y_%x.jpg" overlap="1" preload="1" preview="4" rows="1" states="2" width="3840" windowheight="360" windowwidth="640">
-    <level height="2160" preload="0" width="3840"/>
+  <input columns="90" fileextension="png" height="1080" imagepath="images" levelbias="0.40000000596046448" levelmembmp="200" levelmemraw="300" levelqueuebmp="5" levelqueueraw="20" leveltilesize="510" leveltileurl="tiles/c%c_l%r_%y_%x.jpg" overlap="1" preload="1" preview="4" rows="1" states="2" width="1920" windowheight="360" windowwidth="640">
     <level height="1080" preload="0" width="1920"/>
-    <level height="540" preload="0" width="960"/>
-    <level height="270" preload="1" width="480"/>
+    <level height="540" preload="1" width="960"/>
   </input>
   <control automovemode="1" contextfullscreen="0" controller="1" dblclickfullscreen="0" hideabout="0" invertwheel="0" lockedkeyboard="0" lockedmouse="0" lockedwheel="0" revx="1" revy="0" sensitivity="10" simulatemass="1" speedwheel="1" swapxy="0" trapwheel="1" wrapx="1" wrapy="0"/>
   <view>
     <start column="0" row="0" state="0"/>
     <zoom default="1" max="1" min="1"/>
     <limits panmax="360" panmin="0" tiltmax="90" tiltmin="0"/>
-    <viewer background="1" backgroundcolor="0xffffff" imagescaling="1"/>
+    <viewer background="0" backgroundcolor="0xffffff" imagescaling="1"/>
   </view>
   <autorotate delay="5" speed="1" start="0"/>
   <userdata author="" comment="" copyright="" datetime="" description="" info="" source="" title=""/>
