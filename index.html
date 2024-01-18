@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta property="og:image" content="preview.jpg">
+		<style type="text/css" title="Default">
+			html {
+				height: 100%;
+			}
+			body {
+				height: 100%;
+				margin: 0px;
+				overflow: hidden; /* disable scrollbars */
+                background: ;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<script type="text/javascript" src="object2vr_player.js?ts=41097666">
+		</script>
+		<script type="text/javascript" src="skin.js?ts=41097666">
+		</script>
+		<div id="container" style="width:100%;height:100%;">
+		This content requires HTML5 &amp; Javascript.
+		</div>
+		<script type="text/javascript">
+			// create the object player with the container
+			obj=new object2vrPlayer("container");
+			// add the skin object
+			skin=new object2vrSkin(obj);
+			// load the configuration
+			window.addEventListener("load", function() {
+				obj.readConfigUrlAsync("object.xml?ts=41097666");
+			});
+			
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+	</body>
+			
+</html>
