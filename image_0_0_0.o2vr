@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Object2VR project file  -->
+<object2vrconfig rev="20670" version="4.0beta2">
+  <object>
+    <input>
+      <images/>
+      <columns>90</columns>
+      <rows>1</rows>
+      <states>2</states>
+      <animations>1</animations>
+      <type>sequence</type>
+      <sequencepattern>'image_' + (state)+ '_'+(row) + '_' + (column) + '.jpg'</sequencepattern>
+    </input>
+    <userdata>
+      <customprops/>
+    </userdata>
+    <control>
+      <startcolumn>0</startcolumn>
+      <startrow>0</startrow>
+      <startstate>0</startstate>
+      <type>grabber</type>
+      <wraphorizontal>1</wraphorizontal>
+      <reversehorizontal>1</reversehorizontal>
+      <wrapvertical>0</wrapvertical>
+      <reversevertical>0</reversevertical>
+      <swapverticalhorizontal>0</swapverticalhorizontal>
+      <allowzoom>0</allowzoom>
+      <zoomdefault>1</zoomdefault>
+      <zoommaxunit>pixels</zoommaxunit>
+      <centerx>0</centerx>
+      <centery>0</centery>
+      <automovemode>1</automovemode>
+      <panmin>0</panmin>
+      <panmax>360</panmax>
+      <tiltmin>0</tiltmin>
+      <tiltmax>90</tiltmax>
+    </control>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>output/index.html</filename>
+          <values>
+            <value id="bgcolor">#ffffff</value>
+            <value id="cachebust">true</value>
+            <value id="fitcover">false</value>
+            <value id="jsxml">false</value>
+          </values>
+        </html>
+        <hotspottext/>
+        <hotspotstyle/>
+        <filename>output/object.xml</filename>
+        <skinfile>test1.ggsk</skinfile>
+        <tilewidth>1</tilewidth>
+        <background>0</background>
+        <leveltileenabled>1</leveltileenabled>
+        <leveltile>
+          <width>1920</width>
+        </leveltile>
+        <leveltile>
+          <width>960</width>
+        </leveltile>
+      </htmlcss>
+    </output>
+    <basepath>F:\2024\oc\GH\文件</basepath>
+    <hotspots/>
+    <imageprocessing>
+      <crop/>
+      <levels/>
+      <sharpen/>
+      <masks/>
+      <transform>
+        <transform3d>
+          <translation/>
+          <rotation/>
+        </transform3d>
+      </transform>
+    </imageprocessing>
+    <projectsettings>
+      <translationsavailable>
+        <value id="Project">zh-CN</value>
+      </translationsavailable>
+      <translationsnames>
+        <value id="Project">简体中文</value>
+      </translationsnames>
+      <translationsenabled>
+        <value id="Project">true</value>
+      </translationsenabled>
+    </projectsettings>
+  </object>
+</object2vrconfig>
