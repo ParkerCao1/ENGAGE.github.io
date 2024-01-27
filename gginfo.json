@@ -11,11 +11,11 @@
 	"player": {
 		"js": "object2vr_player.js"
 	},
-	"creationdate": "2024-01-26T09:52:22.169Z",
+	"creationdate": "2024-01-27T06:49:24.628Z",
 	"configuration": "object.xml",
 	"preview": {
 		"img": "preview.jpg",
 		"width": 640,
-		"height": 469
+		"height": 360
 	}
 }
