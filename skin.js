@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Object2VR 4.0beta2/20670
 // Filename: test2.ggsk
-// Generated 2024-01-27T14:49:22
+// Generated 2024-01-29T09:58:54
 
 function object2vrSkin(player,base) {
 	player.addVariable('opt_autorotate', 2, true, { ignoreInState: 1  });
